@@ -21,12 +21,14 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    overflow: hidden;
 }
 
 nav{
     font-style: italic;
     font-size: larger;
     padding-left: 3%;
+    overflow: hidden;
 }
 
 button {
@@ -58,6 +60,7 @@ button:hover {
     padding-top: 5vh;
     border: 1px solid #ccc;
     border-radius: 0px 0px 5px 15px;
+    overflow: hidden;
 }
 
 #buttons {
